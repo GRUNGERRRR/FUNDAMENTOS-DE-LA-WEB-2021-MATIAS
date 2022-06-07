@@ -95,6 +95,84 @@ y:
 <head> y <body> son hermanos
 estos son un par de ejemplos.
 ----------------------------------------------------------------------------------
+<!--formularios-->
+ENTRADA DE TEXTO
+type: texto
+name: "first_name"
+input: le indico que tipo de texto le mando
+ej: <input type="text" name="first_name">
+---------------------------------------------------------------------------------------
+ENTRADA NUMERICA
+type: "number" 
+name: "age"
+ej: <input type="number" name="age">
+---------------------------------------------------------------------------------------
+CONTRASEÑAS
+type: "password"
+name: "password
+ej: <input type="password" name="password">
+---------------------------------------------------------------------------------------
+FECHA
+type: "date"
+name: "dob
+ej: <input type="date" name="dob">
+---------------------------------------------------------------------------------------
+COLOR
+type: "color"
+name: "text_color"
+<input type="color" name="text_color">
+---------------------------------------------------------------------------------------
+RADIO
+La inclusión de los atributos "id" y "for" permite hacer clic en el texto de la etiqueta para cambiar las entradas.
+<input type="radio" name="font" value="bold" id="bold">
+<label for="bold"><strong>Negrita</strong></label>
+<input type="radio" name="font" value="normal" id="normal">
+<label for="normal">Normal</label>
+---------------------------------------------------------------------------------------
+CASILLA DE VERIFICACION
+<input type="checkbox" name="accept" id="accept">
+<label for="accept">Estoy de acuerdo</label>
+AREA DE TEXTO 
+<textarea name="comment" cols="20" rows="3"></textarea>
+---------------------------------------------------------------------------------------
+SELECCIONAR
+<select name="snack">
+    <option>Almonds</option>
+    <option>Cheese and Crackers</option>
+    <option>Pita and Hummus</option>
+    <option>Pears</option>
+</select>
+---------------------------------------------------------------------------------------
+UN FORMULARIO TIPICO
+Los formularios suelen tener más etiquetas que solo las entradas. Por lo general, se usan con <label>, <divy> un botón 
+(<input type="submit" value="Button Text" >) para enviar el formulario. No tenemos que preocuparnos demasiado por <action> o <method> todavía.  Se volverán importantes una vez que comencemos a trabajar con un servidor back-end.
+---------------------------------------------------------------------------------------
+<!--divs-->
+El elemento div sirve para que creemos una division en nuestro codigo donde podemos agrupar etiquetas que tienen un proposito comun 
+
+<form action="/process" method="post">
+    <div>
+        <label>Nombre: </label>
+        <input type="text" name="name" 
+        placeholder="Your name..." >
+    </div>
+    <div>
+        <label>Email: </label>
+        <input type="text" name="email" 
+        placeholder="Your email..." >
+    </div>
+    <div>
+        <input type="checkbox" name="offers" 
+        id="offers" checked >
+        <label for="offers">Me gustaría 
+        recibir correos con ofertas.</label>
+    </div>
+    <input type="submit" value="Sign up" >
+</form>
+¡
+
+
+
 
 
 
