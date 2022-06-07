@@ -78,7 +78,7 @@ muted = especifica que la salida de audio del video debe silenciarse
 ----------------------------------------------------------------------------------
 <!--PCS-->
 Es un termino para describir la relacion entre etiquetas/elementos dentro de un documento HTML.
-ej
+ej:
 Del HTML anterior puedes inferir:
 <html> es el elemento raízBlue and black robot with white background
 <html> no tiene padres
