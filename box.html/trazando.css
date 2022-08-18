@@ -8,7 +8,7 @@
     height: 140px;
     width: 933px;
     background-color: green;
-    display: block;
+ Barra de navegacion   display: block;
     margin: 1%;
 
 }
@@ -27,19 +27,7 @@
     margin-bottom: 1%;
     margin-left: 1%;
 }
-.sub-content {
 
-    height: 200px;
-    width: 210px;
-    background-color: yellow;
-    display: inline-block;
-    margin: 1%;
-    padding: 1%;
-    box-sizing: border-box;
-    width: 30%;
-    margin-top: 1%;
-    
-}
 #advertisement {
     height: 120px;
     width: 686px;
