@@ -1,78 +1,78 @@
-
-body{
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0% 10% 1% 10%;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.btn{
+    padding: 4px 8px;
+    margin: 4px 8px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    cursor: pointer;
+}
+.color-1{
+    color: white;
+    background-color: #276ccd;
+}
+.color-2{
+    color: black;
+    background-color: #ffd966;
+}
+.color-3{
+    color: black;
+    background-color: #93c47d;
+}
+.cursiva{
+    font-style: italic;
+}
+.navbar{
+    width: 700px;
+    margin: 0 auto;
+    background-color: #c1c1c1;
 }
 
-.nav{
-    height: 100%;
-    width: 100%;
-    margin: 0em 1em 1em 1em;
-    
-}
-ul {
+.navbar-elements{
+    padding: 5px 30px;
     list-style-type: none;
-    margin: 0%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    overflow: hidden;
-    background-color: #6e6b6b;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-li {
-    float: left;
+.title{
+    margin-left: 30px;
+    font-size: 2rem;
 }
-
-li a {
-    display: block;
-    color: rgb(255, 255, 255);
+.main{
+    width: 700px;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+}
+.col-1{
+    flex: 70%;
+}
+.col-2{
+    flex: 30%;
+}
+.card{
+    margin: 10px 20px;
+    border: 3px solid gray;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+}
+.like-elements{
+    list-style-type: none;
+    width: 150px;
+    margin: 5px 10px;
+    padding: 5px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
-.sreach {
-    float: right;
-    background-color: #050e91;
-    padding-right: 10%;
-    margin-right:  10% ;
-    border-radius: 30%;
+.adds{
+    margin: 10px 0px;
+    padding: 10px;
+    border: 3px solid gray;
 }
-
-.titulo-nav{
-    color: rgb(0, 0, 0);
-    
-}
-.search{
-    border: 1px;
-    margin-top: 1%;
-    margin-left: 40%;
-}
-.buttom{
-        font-family: sans-serif;
-        background-color: rgb(35, 46, 248);
-        color:white;
-        border-color: rgb(0, 0, 0);
-        box-shadow: 5px 5px rgb(0, 0, 0);
-        margin-left: 80%;
-        margin-top: 1%;
-    
-    }
-.container-1{
-    width: 65%;
-    height: 350px;
-    background-color: blue;
-    margin-left: 1%;
-    margin-top: 3%;
-} 
-.container-2{
-    width: 25%;
-    height: 200px;
-    background-color: orangered;
-    margin-left: 76%;
-    margin-top: -22.5%;
-
-}
-.bloques-1{
+.add-button{
+    text-align: center;
