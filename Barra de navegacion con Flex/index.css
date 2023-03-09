@@ -11,7 +11,7 @@
         border: 2px solid rgb(0, 0, 0);
         width: 120px;
         height: 33px;
-        margin: 23px;
+
         margin-bottom: 0px;
         cursor: pointer;
     }
@@ -30,22 +30,35 @@
     .main{
     
         background-color: black;
-        margin-bottom: -90px;
+
         color: rgb(111, 0, 255);
     }
     
-    a{
-    
-        color: rgb(162, 0, 255);
-    }
+
     
     .nav{
-    
+        margin-top: -10px;
         border-radius: linear-gradient(#ff0000 0%, #ff0000 100%) 3px;
         background-color: darkgrey;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     h1{
         color: black;
 
     }
+    .nav-title{
+        color: white;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .nav-links{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     
+.nav a {
+        color: aliceblue;
+     }
